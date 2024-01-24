@@ -41,4 +41,4 @@ def generate_bracelets():
 generate_bracelets()
 
 for i, (new_bracelet, equi_classes) in enumerate(generate_bracelets()):
-    print(f"Unique bracelet {i + 1}: {new_bracelet}, Equivalence Class: {equi_classes}")
+    print(f"Unique bracelet {i + 1}: Equivalence Class: {equi_classes}")
